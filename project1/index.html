@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess The Flag</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="./myQuiz.js"></script>
+    <script src="./quiz-tester.js"></script>
+</head>
+<body>
+    <div class='header'>
+      <div class='player1ScoreWrapper'>
+        <h2 id='player1'>Player 1 Score</h2>
+        <h2 id='player1Score'>1</h2>
+      </div>
+
+      <div class='gameStatusWrapper'>
+        <h1 id='gameTitle'>Guess The Flag</h1>
+        <h1 id='gameStatus'>It's Player 1's Turn</h1>
+      </div>
+
+      <div class='player2ScoreWrapper'>
+        <h2 id='player2'>Player 2 Score</h2>
+        <h2 id='player2Score'>2</h2>
+      </div>
+    </div>
+
+
+    <div id='flag'>
+    </div>
+
+    <div class='answers'>
+      <div class='firstRowAnswers'>
+        <button id='choice1'>Choice A</button>
+        <button id='choice2'>Choice B</button>
+      </div>
+      <div class='secondRowAnswers'>
+        <button id='choice3'>Choice C</button>
+        <button id='choice4'>Choice D</button>
+      </div>
+    </div>
+
+    <div id='restart'>
+    <button>Restart</button>
+    </div>
+
+
+    <div class="check">
+    </div>
+
+</body>
+</html>
